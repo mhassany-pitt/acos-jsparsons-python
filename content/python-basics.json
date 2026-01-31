@@ -3520,23 +3520,5 @@
     "type": "SIMPLE",
     "description": "Creating a program that compares a value in a loop",
     "concepts": ["Int", "Lt", "For", "Call", "Str", "Assign", "Mult"]
-  },
-  "ps_python_aj_front_and_end": {
-    "name": "Retrieve element at the front and at the end",
-    "description": "Retrieve element at the front and at the end",
-    "instructions": "Create functions get_front() that returns the first element in the list, and get_end that returns the last element in the list. If the list is empty, both the functions should return None.",
-    "initial": "def get_front(lst):\n    if len(lst) == 0:\n        return None\n    return lst[0]\n\ndef get_end(lst):\n    if len(lst) == 0:\n        return None\n    return lst[-1]\n",
-    "type": "SIMPLE",
-    "concepts": [],
-    "order": 76
-  },
-  "ps_python_aj_push_and_pop": {
-    "name": "Stack push and pop",
-    "description": "In this problem, you will define functions to push and element to the stack, and pop an element from the stack. ",
-    "instructions": "In this problem, you will define functions to push and element to the stack, and pop an element from the stack. You will use insert and pop functions of a list.",
-    "initial": "def push(stack, item):\n    stack.insert(0, item)\n\ndef pop(stack):\n    if len(stack)==0: \n        return None\n    return stack.pop(0)\n",
-    "type": "SIMPLE",
-    "concepts": [],
-    "order": 77
   }
 }
